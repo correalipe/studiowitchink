@@ -3,29 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso Online | Seu Nome</title>
+    <title>Curso Online de Tatuagem | Seu Nome</title>
     <style>
-        /* Copie o mesmo CSS do index.html aqui */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .cta-button:hover {
+            background: #128C7E;
+        }
+        img, iframe {
+            max-width: 100%;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>🎥 Curso Online de Tatuagem</h1>
+        <p>Aprenda no seu ritmo, de qualquer lugar!</p>
     </header>
 
     <div class="container">
-        <h2>Conteúdo do Curso:</h2>
+        <h2>O que você vai aprender?</h2>
         <ul>
-            <li><strong>Módulo 1:</strong> Introdução à tatuagem</li>
-            <li><strong>Módulo 2:</strong> Técnicas de sombreamento</li>
-            <li><strong>Módulo 3:</strong> Biossegurança e cuidados</li>
+            <li><strong>Módulo 1:</strong> Introdução à tatuagem e equipamentos</li>
+            <li><strong>Módulo 2:</strong> Técnicas de traço e sombreamento</li>
+            <li><strong>Módulo 3:</strong> Biossegurança e cuidados pós-tatuagem</li>
+            <li><strong>Bônus:</strong> Como montar seu portfólio</li>
         </ul>
 
         <h2>📹 Vídeo Demonstrativo</h2>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/SEU_VIDEO" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/SEU_VIDEO" frameborder="0" allowfullscreen></iframe>
 
         <h2>📚 Materiais Inclusos</h2>
-        <img src="assets/pdf-curso-online.jpg" alt="PDF do Curso" width="200">
+        <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+            <img src="assets/pdf1.jpg" alt="PDF Guia Básico" width="200">
+            <img src="assets/pdf2.jpg" alt="PDF Técnicas" width="200">
+        </div>
 
         <a href="https://wa.me/5511999999999?text=Quero+comprar+o+curso+online" class="cta-button">
             QUERO ME INSCREVER (WhatsApp)
